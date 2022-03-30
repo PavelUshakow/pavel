@@ -1,0 +1,91 @@
+.buttons div {
+	font-family: var(--buttons_font);
+	color:#3B3B3B;
+	height: 40px;
+	display: flex;
+}
+.buttons {
+	
+	width: 185px;
+	display: flex;
+	flex-direction: column;
+}
+.button1{
+display: flex;
+	align-items: center;
+	width: 175px;
+	background-image: url(../images/button2.jpg);
+	padding-left: 10px;
+}
+.button2 {
+    display: flex;
+	align-items: center;
+	width: 175px;
+	background-image: url(../images/button2.jpg);
+	padding-left: 10px;
+    font-size: 12pt;
+	
+	
+	
+	background-image: url(../images/button2.jpg);
+}
+.button3 {
+		display: flex;
+	align-items: center;
+	width: 175px;
+	background-image: url(../images/button2.jpg);
+	padding-left: 10px;
+    color:#FFFFFF;
+	
+	font-size: 12pt; 
+}
+.button4 {
+		display: flex;
+	align-items: center;
+	width: 175px;
+	background-image: url(../images/button2f.jpg);
+	padding-left: 10px;
+    font-size: 14pt; 
+}
+.button5 {
+		display: flex;
+	align-items: center;
+	width: 175px;
+	background-image: url(../images/button3.jpg);
+	padding-left: 10px;
+}
+.button1:hover {
+
+	color:#FFFFFF;
+	transition-duration: 0.2s;
+	font-size: 14pt; 
+	background-image: url(../images/button2f.jpg);
+	
+}
+.button2:hover {
+	color:#FFFFFF;
+	font-size: 14pt;  
+	transition-duration: 0.2s;
+	background-image: url(../images/button2f.jpg);
+}
+.button3:hover {
+	color:#FFFFFF;
+	font-size: 14pt;  
+	transition-duration: 0.2s;
+	background-image: url(../images/button3f.jpg);
+}
+.button4:hover {
+	color:#FFFFFF;
+	font-size: 14pt;  
+	transition-duration: 0.2s;
+	background-image: url(../images/button3f.jpg);
+}
+.button5:hover {
+	color:#FFFFFF;
+	font-size: 14pt;  
+	transition-duration: 0.2s;
+	background-image: url(../images/button3f.jpg);
+}
+.a, a:active {
+	text-decoration: none;
+}

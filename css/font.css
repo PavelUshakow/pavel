@@ -1,0 +1,8 @@
+
+:root {
+	--content_font: Arial; /*Шрифт Основного текста*/
+	--buttons_font:FRANKLIN GOTHIC MEDIUM;/*Шрифт надписей кнопок*/
+	--title_font:FRANKLIN GOTHIC MEDIUM;/*Шрифт заголовка*/
+	--title_size: 17pt;/*размер заголовка*/
+	--content_size: 14pt;/*размер основного текста*/
+}

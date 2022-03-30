@@ -1,0 +1,86 @@
+.button1 {
+	/*background-image: url(../images/button2.jpg);*/
+	align-items: center;
+	flex: 1 1 auto;
+	padding-left: 10px;
+	display: flex;
+	height:40px; 
+	width:175px; 
+	color:#FFFFFF;
+	
+	font-size: 14pt; 
+	background-image: url(../images/button2f.jpg);
+}
+.button2 {
+		display: flex;
+	align-items: center;
+	width: 175px;
+	background-image: url(../images/button2.jpg);
+	padding-left: 10px;
+}
+.button3 {
+		display: flex;
+	align-items: center;
+	width: 175px;
+	background-image: url(../images/button2.jpg);
+	padding-left: 10px;
+}
+.button4 {
+		display: flex;
+	align-items: center;
+	width: 175px;
+	background-image: url(../images/button2.jpg);
+	padding-left: 10px;
+}
+.button5 {
+		display: flex;
+	align-items: center;
+	width: 175px;
+	background-image: url(../images/button3.jpg);
+	padding-left: 10px;
+}
+.buttons div {
+	height: 40px;
+	display: flex;
+	font-family: var(--buttons_font);
+	color:#3B3B3B;
+	flex: 1 1 auto;
+
+	
+}
+.button1:hover {
+
+	color:#FFFFFF;
+	transition-duration: 0.2s;
+	font-size: 14pt; 
+	background-image: url(../images/button2f.jpg);
+	
+}
+.button2:hover {
+	color:#FFFFFF;
+	font-size: 14pt;  
+	transition-duration: 0.2s;
+	background-image: url(../images/button2f.jpg);
+}
+.button3:hover {
+	color:#FFFFFF;
+	font-size: 14pt;  
+	transition-duration: 0.2s;
+	background-image: url(../images/button3f.jpg);
+}
+.button4:hover {
+	color:#FFFFFF;
+	font-size: 14pt;  
+	transition-duration: 0.2s;
+	background-image: url(../images/button3f.jpg);
+}
+.button5:hover {
+	color:#FFFFFF;
+	font-size: 14pt;  
+	transition-duration: 0.2s;
+	background-image: url(../images/button3f.jpg);
+}
+.a, a:active {
+	text-decoration: none;
+	/*color: #3B3B3B;*/
+}
